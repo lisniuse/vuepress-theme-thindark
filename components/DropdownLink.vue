@@ -77,6 +77,10 @@ export default {
 </script>
 
 <style lang="stylus">
+$headerTextColor = #ffffff
+$headerBg = #282c34
+$accentColor = #acacac
+
 .dropdown-wrapper
   cursor pointer
   .dropdown-title
@@ -93,7 +97,7 @@ export default {
       line-height 1.7rem
       h4
         margin 0.45rem 0 0
-        border-top 1px solid #eee
+        border-top 1px solid #3d3d3d
         padding 0.45rem 1.5rem 0 1.25rem
       .dropdown-subitem-wrapper
         padding 0
@@ -168,12 +172,13 @@ export default {
       position absolute
       top 100%
       right 0
-      background-color #fff
+      background-color $headerBg
       padding 0.6rem 0
-      border 1px solid #ddd
+      border none
       border-bottom-color #ccc
       text-align left
       border-radius 0.25rem
       white-space nowrap
       margin 0
+      box-shadow 0px 0px 10px rgba(0, 0, 0, 0.61)
 </style>

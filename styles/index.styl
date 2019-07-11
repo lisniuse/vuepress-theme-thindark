@@ -48,11 +48,19 @@ body
   z-index 10
   margin 0
   top $navbarHeight
-  left 0
   bottom 0
   box-sizing border-box
   border-right 1px solid $borderColor
   overflow-y auto
+  &::-webkit-scrollbar
+    width 8px
+    height 12px
+  &::-webkit-scrollbar-thumb
+    background-color hsla(0,0%,44.3%,.06)
+    border-radius 12px
+  &::-webkit-scrollbar-thumb:hover
+    background-color #3eaf7c
+    border-radius 12px
 
 {$contentClass}:not(.custom)
   @extend $wrapper

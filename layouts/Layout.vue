@@ -15,35 +15,38 @@
       @click="toggleSidebar(false)"
     ></div>
 
-    <Sidebar
-      :items="sidebarItems"
-      @toggle-sidebar="toggleSidebar"
-    >
-      <slot
-        name="sidebar-top"
-        slot="top"
-      />
-      <slot
-        name="sidebar-bottom"
-        slot="bottom"
-      />
-    </Sidebar>
-
     <Home v-if="$page.frontmatter.home"/>
 
-    <Page
-      v-else
-      :sidebar-items="sidebarItems"
-    >
-      <slot
-        name="page-top"
-        slot="top"
-      />
-      <slot
-        name="page-bottom"
-        slot="bottom"
-      />
-    </Page>
+    <div v-else class="docs-layout">
+
+      <Sidebar
+        :items="sidebarItems"
+        @toggle-sidebar="toggleSidebar"
+      >
+        <slot
+          name="sidebar-top"
+          slot="top"
+        />
+        <slot
+          name="sidebar-bottom"
+          slot="bottom"
+        />
+      </Sidebar>
+
+      <Page
+        :sidebar-items="sidebarItems"
+      >
+        <slot
+          name="page-top"
+          slot="top"
+        />
+        <slot
+          name="page-bottom"
+          slot="bottom"
+        />
+      </Page>
+    </div>
+
   </div>
 </template>
 
@@ -147,3 +150,9 @@ export default {
 </script>
 
 <style src="prismjs/themes/prism-tomorrow.css"></style>
+
+<style lang="stylus">
+.docs-layout
+  max-width: 1200px
+  margin: 0 auto
+</style>

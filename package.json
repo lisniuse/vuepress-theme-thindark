@@ -1,34 +1,24 @@
 {
-  "name": "@vuepress/theme-default",
-  "version": "1.0.2",
-  "description": "Default theme for VuePress",
+  "name": "vuepress-theme-dark",
+  "version": "1.0.0",
+  "description": "A dark theme for VuePress.",
   "main": "index.js",
-  "publishConfig": {
-    "access": "public"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vuejs/vuepress.git",
-    "directory": "packages/@vuepress/theme-default"
+    "url": "git+https://github.com/lisniuse/vuepress-theme-dark.git"
   },
   "keywords": [
-    "documentation",
-    "vue",
     "vuepress",
-    "generator"
+    "vuepress-theme",
+    "documentation",
+    "site-generator"
   ],
-  "author": "Evan You",
-  "maintainers": [
-    {
-      "name": "ULIVZ",
-      "email": "chl814@foxmail.com"
-    }
-  ],
+  "author": "Zhi Bing",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vuejs/vuepress/issues"
+    "url": "https://github.com/lisniuse/vuepress-theme-dark/issues"
   },
-  "homepage": "https://github.com/vuejs/vuepress/packages/@vuepress/theme-default#readme",
+  "homepage": "https://github.com/lisniuse/vuepress-theme-dark#readme",
   "dependencies": {
     "@vuepress/plugin-active-header-links": "^1.0.2",
     "@vuepress/plugin-nprogress": "^1.0.2",

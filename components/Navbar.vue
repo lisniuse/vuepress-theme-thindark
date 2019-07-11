@@ -92,14 +92,14 @@ $navbar-vertical-padding = 0.7rem
 $navbar-horizontal-padding = 1.5rem
 
 $headerTextColor = #ffffff
-$headerBg = #171f26
+$headerBg = #282c34
 
 .navbar
   padding $navbar-vertical-padding $navbar-horizontal-padding
-  line-height $navbarHeight - 1.4rem
+  line-height 2.5rem
   background-color $headerBg
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.50);
   .inner
-    overflow hidden
     max-width 1200px
     margin 0 auto
   .home-link
@@ -136,5 +136,6 @@ $headerBg = #171f26
     .can-hide
       display none
     .links
-      padding-left 1.5rem
+      padding-top 0.1rem
+      padding-left 1rem
 </style>
