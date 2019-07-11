@@ -1,6 +1,6 @@
 {
   "name": "vuepress-theme-thindark",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A dark theme for VuePress.",
   "main": "index.js",
   "repository": {
