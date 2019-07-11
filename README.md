@@ -40,8 +40,8 @@ Create VuePress config file `.vuepress/config.js` and provide a `theme` option.
 // .vuepress/config.js
 module.exports = {
   title: 'Hello, World.',
-  description: 'dark theme for VuePress.',
-  theme: 'api',
+  description: 'Dark theme for VuePress.',
+  theme: 'thindark',
 }
 ```
 
