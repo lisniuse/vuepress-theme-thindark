@@ -1,11 +1,11 @@
 {
-  "name": "vuepress-theme-dark",
+  "name": "vuepress-theme-thindark",
   "version": "1.0.0",
   "description": "A dark theme for VuePress.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lisniuse/vuepress-theme-dark.git"
+    "url": "git+https://github.com/lisniuse/vuepress-theme-thindark.git"
   },
   "keywords": [
     "vuepress",
@@ -16,9 +16,9 @@
   "author": "Zhi Bing",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lisniuse/vuepress-theme-dark/issues"
+    "url": "https://github.com/lisniuse/vuepress-theme-thindark/issues"
   },
-  "homepage": "https://github.com/lisniuse/vuepress-theme-dark#readme",
+  "homepage": "https://github.com/lisniuse/vuepress-theme-thindark#readme",
   "dependencies": {
     "@vuepress/plugin-active-header-links": "^1.0.2",
     "@vuepress/plugin-nprogress": "^1.0.2",

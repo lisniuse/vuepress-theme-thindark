@@ -1,12 +1,12 @@
-# vuepress-theme-dark
+# vuepress-theme-thindark
 
-[![npm](https://img.shields.io/npm/v/vuepress-theme-dark.svg)](https://www.npmjs.com/package/vuepress-theme-dark)
-[![npm](https://img.shields.io/npm/l/vuepress-theme-dark.svg)](https://github.com/sqrthree/vuepress-theme-dark/blob/master/LICENSE)
+[![npm](https://img.shields.io/npm/v/vuepress-theme-thindark.svg)](https://www.npmjs.com/package/vuepress-theme-thindark)
+[![npm](https://img.shields.io/npm/l/vuepress-theme-thindark.svg)](https://github.com/sqrthree/vuepress-theme-thindark/blob/master/LICENSE)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
-> A dark theme for VuePress.
+> A dark theme for VuePress. (It is remodeled from the [default theme](https://v1.vuepress.vuejs.org/theme/default-theme-config.html) and is compatible with all configurations of the default theme.)
 
-[Live demo](https://lisniuse.github.io/vuepress-theme-dark-demo/)
+[Live demo](https://lisniuse.github.io/vuepress-theme-thindark-demo/)
 
 ## Built With
 
@@ -29,7 +29,7 @@ There are some global dependencies you need to set up.
 yarn global add vuepress # OR npm install -g vuepress
 
 # Install theme
-yarn global add vuepress-theme-dark # OR npm install -g vuepress-theme-dark
+yarn global add vuepress-theme-thindark # OR npm install -g vuepress-theme-thindark
 ```
 
 ### Configuration
@@ -60,5 +60,4 @@ vuepress build .
 
 ## How to use?
 
-Go to [docs](https://lisniuse.github.io/vuepress-theme-dark-demo/) to get more details.
-
+Go to [docs](https://lisniuse.github.io/vuepress-theme-thindark-demo/) to get more details.
