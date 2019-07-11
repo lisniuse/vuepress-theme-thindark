@@ -1,7 +1,7 @@
 # vuepress-theme-thindark
 
 [![npm](https://img.shields.io/npm/v/vuepress-theme-thindark.svg)](https://www.npmjs.com/package/vuepress-theme-thindark)
-[![npm](https://img.shields.io/npm/l/vuepress-theme-thindark.svg)](https://github.com/sqrthree/vuepress-theme-thindark/blob/master/LICENSE)
+[![npm](https://img.shields.io/npm/l/vuepress-theme-thindark.svg)](https://github.com/lisniuse/vuepress-theme-thindark/blob/master/LICENSE)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 > A dark theme for VuePress. (It is remodeled from the [default theme](https://v1.vuepress.vuejs.org/theme/default-theme-config.html) and is compatible with all configurations of the default theme.)
